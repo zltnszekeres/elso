@@ -1,3 +1,25 @@
+
+
+
+
+
+# elsö ract app
+
+# app létrehozássa
+
+npm create-app
+
+cd elso
+npm start
+
+csomagkezlő és függőségek
+
+függőségek package.json
+
+bootstrap telepítése
+npm  install ract-bootstrap
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Kartyak from './componens/Kartyak';
+import { lista } from './adatlista';
 
 function App() {
+
+  const ember={nev:"Jenő",
+  kor: 35
+  }
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Első app
       </header>
+
+
+      <article>
+    <Kartyak lista={lista}/>
+        
+      </article>
+
+      <footer>đä</footer>
     </div>
   );
 }
